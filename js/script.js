@@ -16,6 +16,14 @@ document.addEventListener('click', function(e) {
     if (e.target.closest('.new-team')) {
         body.classList.toggle('white-team')
     }
+
+    if (e.target.closest('.send-btn')) {
+        let form = e.target.closest('.contacts-form');
+        let formInputs = form.querySelectorAll('.form-input');
+        formInputs.forEach(function (item) {
+            item.value = ''
+        });
+    }
 })
 
 document.querySelectorAll('a[href^="#"').forEach(link => {
