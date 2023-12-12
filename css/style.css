@@ -912,6 +912,9 @@ body {
 .white-team .text-black {
   color: #111827;
 }
+.white-team .work-item-skil {
+  background-color: #E3E8ED;
+}
 .white-team .work-item:hover {
   background: #E3E8ED;
   -webkit-transition: all 0.3s ease 0s;
