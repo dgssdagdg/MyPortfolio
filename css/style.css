@@ -533,7 +533,7 @@ body {
     font-size: 33px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 810px) {
   .work-item-top {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
