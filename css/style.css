@@ -624,6 +624,11 @@ body {
           column-gap: 19px;
 }
 
+.contacts-content-users-img img {
+  width: 126px;
+  border-radius: 100%;
+}
+
 .contacts-content-users-name {
   font-family: "Poppins";
   font-weight: 600;
